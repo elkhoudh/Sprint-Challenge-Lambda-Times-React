@@ -44,7 +44,6 @@ export default class Content extends Component {
   };
 
   render() {
-    console.log(this.state);
     return (
       <div className="content-container">
         {/* 

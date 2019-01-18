@@ -33,7 +33,7 @@ const Author = styled.div`
   }
 `;
 
-const imgContainer = styled.div`
+const ImgContainer = styled.div`
   padding-right: 10px;
   border-right: 1px solid lightgrey;
   height: 40px;
@@ -47,9 +47,9 @@ const Card = props => {
     <CardStyled>
       <Headline>{props.card.headline}</Headline>
       <Author>
-        <imgContainer>
+        <ImgContainer>
           <Image alt="..." src={props.card.img} />
-        </imgContainer>
+        </ImgContainer>
         <span>By {props.card.author}</span>
       </Author>
     </CardStyled>
